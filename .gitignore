@@ -1,2 +1,7 @@
 .gradle/
+.idea/
 build/
+caches/
+daemon/
+native/
+wrapper/
