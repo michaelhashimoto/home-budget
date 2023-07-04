@@ -4,4 +4,6 @@ build/
 caches/
 daemon/
 native/
+node_modules/
 wrapper/
+yarn.lock

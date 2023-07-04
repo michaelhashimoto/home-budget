@@ -1,3 +1,4 @@
 rootProject.name = "home-budget"
 
 include ":spring-boot"
+include ":react-app"

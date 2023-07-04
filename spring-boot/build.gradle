@@ -12,7 +12,7 @@ apply plugin: "java"
 apply plugin: "org.springframework.boot"
 
 dependencies {
-	compile group: "org.springframework.boot", name: "spring-boot-starter-web", version: "2.7.13"
+	implementation group: "org.springframework.boot", name: "spring-boot-starter-web", version: "2.7.13"
 }
 
 repositories {
