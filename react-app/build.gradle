@@ -10,3 +10,7 @@ buildscript {
 }
 
 apply plugin: "com.github.node-gradle.node"
+
+yarn_build {
+	dependsOn(":react-app:yarn")
+}

@@ -18,3 +18,14 @@ dependencies {
 repositories {
 	mavenCentral()
 }
+
+bootRun {
+	dependsOn(":react-app:yarn_build")
+
+	doFirst {
+		copy {
+			from "$buildDir/../../react-app/build"
+			into "$buildDir/resources/main/static"
+		}
+	}
+}

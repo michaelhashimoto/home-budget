@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeBudgetRestController {
 
-	@PostMapping
-	public ResponseEntity<String> process(@RequestBody String body) {
+	@PostMapping("/api")
+	public ResponseEntity<String> api(@RequestBody String body) {
 		if (_log.isInfoEnabled()) {
 			_log.info("Processing " + body);
 		}
